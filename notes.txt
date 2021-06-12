@@ -1,0 +1,23 @@
+                                                         HOW INTERNET WORKS
+
+1. internet is a wire that connects one device or computer to another.
+2. Servers: some computers attached to the internet are online 24 x 7 and ready to serve us the files or information we request.[library]
+3. clients: any user that uses internet to access the information.
+   
+   Our browser> isp(what page are we requesting)> DNS server(looks for the ip address of the requested page in its database, sends)> our browser
+   our browser(direct request to the address through ips) via internet backbone
+   our browser sends another message through ips via ib to the server at the loc.
+   the server then sends us the required data via ib to our browser 
+
+
+                                                      HOW WEBSITES WORKS
+
+
+the data reciever from the server is usually in html,css or js.
+HTML: responsible for structure of our website like adding image, textbox, button.[builder of the house]
+CSS: styling your website like text font,color.[painters and decorators]
+JS: responsible for behaviour, or do things.[] 
+
+  **surprise your friends by editing a text in techcruch.com
+
+					    
