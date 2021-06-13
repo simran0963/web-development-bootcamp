@@ -18,6 +18,4 @@ HTML: responsible for structure of our website like adding image, textbox, butto
 CSS: styling your website like text font,color.[painters and decorators]
 JS: responsible for behaviour, or do things.[] 
 
-  **surprise your friends by editing a text in techcruch.com
-
-					    
+  **surprise your friends by editing a text in "techcruch.com"
