@@ -6,7 +6,7 @@ HTML: Hyper Text Markup Language
 	3. <hr> tag : used to create horizontal line above and below our text(self closing tag).
 		-> <hr size="_" to specify the size of horizontal rule>.
 
-NOTE*: a HTML element is sometimes followed by a HTMl attribute, above size="..." is an attribute separated from the element by a single space.
+NOTE*: an HTML element is sometimes followed by a HTMl attribute, above size="..." is an attribute separated from the element by a single space.
 
 ATTRIBUTES: 1. align: the line to align left or right
 	    2. color: sets the color to the horizontal rule.
