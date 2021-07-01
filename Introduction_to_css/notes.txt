@@ -1,0 +1,35 @@
+                                                                         WHAT IS CSS?
+
+
+
+  CSS stands for "Cascading Stylesheets"
+    1. not a programming language.
+    2. Stylesheet/ Styling language.
+    3. Used for website layout and design.
+    4. By default CSS do not have any logic so it is used with HTML, XML, XHTML or can be extended with Sass/Less.
+      -> Sass: Syntactically Awesome Sytlesheet and
+      -> Less: Leaner CSS are CSS preprocessors
+
+INLINE CSS: relate to a speific HTML tag to style a particular page element.
+	    less flexible as each inline style that is created must be edited separately while a change in design.
+
+  The first CSS element to learn is the style attribute which is kept under the body tag and is followed by : ="background-color: colour;" for 
+  changing the bg colour of the website.It is used as:
+    1. <body style="background-color: blue;"> when using the keyword values.
+    2. <body style="background-color: #bbff00;"> for the hexadecimal values.
+    3. <body style="background-color: rgb(255, 255, 128);"> when using the RGB values.
+    4. <body style="background-color: hsl(50, 33%, 25%);"> when using the HSL values.
+    5. <body style="background-color: currentcolor;"> when using the special keyword values.
+    6. <body style="background-color: inherit;"> when using theGlobal values.
+
+INTERNAL CSS: holds CSS rules for page in the head section of the HTML file.
+	      rules only apply to that particular page but you can arrange CSS classes and ID's to style multiple elements in the page code.
+
+  Again style is used but as a tag and within the head tag after the closing title tag.
+  so within the style tag an element body is specified using CSS code as which affects the style of the body element as:
+    1. <style>
+        body {
+	      background-color= "#bbff00"
+      }
+    </style>
+    2. similarly other elements like img could also be used as tags and modified by using attributes such as bg color, border, height, etc..
