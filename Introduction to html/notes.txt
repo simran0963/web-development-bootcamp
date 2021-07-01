@@ -9,7 +9,7 @@ HTML: Hyper Text Markup Language
 NOTE*: an HTML element is sometimes followed by a HTMl attribute, above size="..." is an attribute separated from the element by a single space.
 
 ATTRIBUTES: 1. align: the line to align left or right
-	    2. color: sets the color to the horizontal rule.
-	    3. noshade: rule with no shading
-	    4. size: heiight in pixels
-	    5. width: length of the rule through pixel or percentage value
+	          2. color: sets the color to the horizontal rule.
+						3. noshade: rule with no shading
+	   			  4. size: height in pixels
+	  			  5. width: length of the rule through pixel or percentage value
