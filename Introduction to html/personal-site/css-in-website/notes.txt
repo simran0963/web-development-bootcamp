@@ -53,4 +53,6 @@ EXTERNAL CSS: With an external style sheet, you can change the look of an entire
       }
     Note: Do not add a space between the property value and the unit (such as margin-left: 20 px;). The correct way is: margin-left: 20px
 
-NOTE*: if we specify css rules for the same property in different places, 
+NOTE*: if we specify css rules for the same property in different places, the inline css is prioritized over the internal and external css, 
+       also internal css is given more priority iver the external css.
+       it is usually suggested to implement all the styles inside the external css.
