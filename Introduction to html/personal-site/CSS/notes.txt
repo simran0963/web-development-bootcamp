@@ -33,3 +33,24 @@ INTERNAL CSS: holds CSS rules for page in the head section of the HTML file.
       }
     </style>
     2. similarly other elements like img could also be used as tags and modified by using attributes such as bg color, border, height, etc..
+
+EXTERNAL CSS: With an external style sheet, you can change the look of an entire website by changing just one file!
+
+  Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+  An external style sheet can be written in any text editor, and must be saved with a .css extension.
+
+  The external .css file should not contain any HTML tags.
+
+  Here is how the "mystyle.css" file looks:
+    1. "mystyle.css"
+      body {
+        background-color: lightblue;
+      }
+
+      h1 {
+        color: navy;
+        margin-left: 20px;
+      }
+    Note: Do not add a space between the property value and the unit (such as margin-left: 20 px;). The correct way is: margin-left: 20px
+
+NOTE*: if we specify css rules for the same property in different places, 
