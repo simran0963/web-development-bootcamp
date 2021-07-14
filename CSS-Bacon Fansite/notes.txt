@@ -1,0 +1,118 @@
+                                                                         WHAT IS CSS?
+
+
+
+  CSS stands for "Cascading Stylesheets"
+    1. not a programming language.
+    2. Stylesheet/ Styling language.
+    3. Used for website layout and design.
+    4. By default CSS do not have any logic so it is used with HTML, XML, XHTML or can be extended with Sass/Less.
+      -> Sass: Syntactically Awesome Sytlesheet and
+      -> Less: Leaner CSS are CSS preprocessors
+
+INLINE CSS: relate to a speific HTML tag to style a particular page element.
+	    less flexible as each inline style that is created must be edited separately while a change in design.
+
+  The first CSS element to learn is the style attribute which is kept under the body tag and is followed by : ="background-color: colour;" for 
+  changing the bg colour of the website.It is used as:
+    1. <body style="background-color: blue;"> when using the keyword values.
+    2. <body style="background-color: #bbff00;"> for the hexadecimal values.
+    3. <body style="background-color: rgb(255, 255, 128);"> when using the RGB values.
+    4. <body style="background-color: hsl(50, 33%, 25%);"> when using the HSL values.
+    5. <body style="background-color: currentcolor;"> when using the special keyword values.
+    6. <body style="background-color: inherit;"> when using theGlobal values.
+
+INTERNAL CSS: holds CSS rules for page in the head section of the HTML file.
+	      rules only apply to that particular page but you can arrange CSS classes and ID's to style multiple elements in the page code.
+
+  Again style is used but as a tag and within the head tag after the closing title tag.
+  so within the style tag an element body is specified using CSS code as which affects the style of the body element as:
+    1. <style>
+        body {
+	      background-color= "#bbff00"
+      }
+    </style>
+    2. similarly other elements like img could also be used as tags and modified by using attributes such as bg color, border, height, etc..
+
+EXTERNAL CSS: With an external style sheet, you can change the look of an entire website by changing just one file!
+
+  Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+  An external style sheet can be written in any text editor, and must be saved with a .css extension.
+
+  The external .css file should not contain any HTML tags.
+
+  Here is how the "mystyle.css" file looks:
+    1. "mystyle.css"
+      body {
+        background-color: lightblue;
+      }
+
+      h1 {
+        color: navy;
+        margin-left: 20px;
+      }
+    Note: Do not add a space between the property value and the unit (such as margin-left: 20 px;). The correct way is: margin-left: 20px
+
+NOTE*: if we specify css rules for the same property in different places, the inline css is prioritized over the internal and external css, 
+       also internal css is given more priority iver the external css.
+       it is usually suggested to implement all the styles inside the external css.
+
+COMMENTING IN CSS:
+	1. To comment out a particular text or code in css just put them under a /* in the beginning and a */ in the end as:
+		 /*
+		 img {
+			 background-color: red;
+		 }
+		 */
+
+USE CLASS SELECTORS INSTEAD OF TAG SELECTORS:
+	1. When using the external css, if a tag is used to specify a particular property, then another tag within the same website, specifying a 
+	   different data gets the same styling too. In order to change it simply add a class attribute to both the tags with different class 
+		 name ofc and to add properties instead of using the tag name use a .name-of-class and within {} add the properties to be applied to either
+		 or all the classes separately as:
+		<img class="bacon" src="link to bacon" alt="bacon-img">	
+		<img class="broccoli" src="link to broccoli" alt="broccoli-img">
+
+			.bacon {
+					background-color: green;
+				}
+
+			.broccoli {
+					background-color: red;
+				}
+
+NOTE*:	CLASS ATTRIBUTE ALLOWS US TO DIFFERNETIATE DIFFERENT HTML ELEMENTS
+
+CLASSES VS IDs:
+
+	1. To use an ID selector firstly specify the ID within the html tag as done with the classes, then use a #id-name and within the {} specify the
+	   styling as:
+		 <h1 id="heading">I Love Bacon</h1>
+
+		 Then in external css section:
+		 #heading {
+			color: blue
+		 }
+
+NOTE*: 1. also the ID selectors and the class selectors, overrides the tag selectors as they are more specific, hence if both id and tag selectord
+          are used then only the id selector will come to use.
+			 2. TO CHECK WHICH SELECTOR WORKS FINE, CHECK IT IN THE CHROME DEVELOPER TOOLS BY RIGHT CLICKING AND INSPECTING IT.
+			 3. When using IDs make sure that you can have only a single instance of id name in a single page, no two tags must have a same ID name,
+			    but it doesn't really matter with the class attribute, so many classes can have and be called using the same name.
+					there has to be only one id with a particular name but a webpage can have multiple id attributes.
+			 4. Any html element can have more than one class but can only have one id as:
+			 			<img class="bacon circular" src="link to bacon" alt="bacon-img">	
+						note that here circular is another class whoch in the external css file can be used as another class as:
+							.circular {
+								border-radius: 100%;								
+							}
+					but if the same is done with an id then, since the id is now invalid, so all the styling under the id selector is denied.
+
+WHEN TO USE A CLASS AND WHEN AN ID?
+	Class: when you have to use the same kinda styling to a group of related items.
+	IDs: when you have to use a specific style to a single element.
+
+PSEUDO CLASSES:
+	They have a :class before their respective classes, this is because the html elements can have different states and the most commonly used is 
+	:hover-> in this when we roll over or hover over a particular piece of text or image a different style is shown such as, if we hover over an
+	image it would change its background color. This is done using tag:hover {}
