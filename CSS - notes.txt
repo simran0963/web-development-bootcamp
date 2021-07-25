@@ -146,11 +146,11 @@ CSS POSITIONING:
 		Parent element acts as a base on top of which things that are coded inside them gets displayed, i.e., more close to the viewer.
 		Position is a CSS property which can be used to set the position or layout other than the default one. Some properties used to change the 
 		layout are:
-			1. Static: the default htmnl flow, if we have only html and no css, these elements are not affected by any css positioning props.
+			1. Static: the default html flow, if we have only html and no css, these elements are not affected by any css positioning props.
 			2. Relative: it also uses the stsic or normal position and that is used to determine the new relative position like left: 40px says the 
 				 left edge of the element should move to the right by 40px or the space b/w its new and former left edge should be 40 px.
 				 -> note that the relative positioning does not affect other elements so, if some other element is displayed along its new position, 
 				 	  then the change will just overlap the other elements.
 				 -> relative positioning adds the margin to where the object should have been
 			3. Absolute: adds the margin to the parent element.
-			4. Fixed
+			4. Fixed: no matter of all the scrolling through the page, a particular element would remain still and intact in it's position.

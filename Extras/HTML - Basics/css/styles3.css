@@ -1,6 +1,11 @@
 body {
-  margin
-  : 0;
+  margin : 0;
+}
+.container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: grey;
 }
 
 .red {
@@ -8,8 +13,7 @@ body {
   width: 100px;
   background-color: red;
   position: absolute;
-  left: 200px;
-  top: 200px;
+  right: 0;
 }
 
 .blue {
@@ -18,12 +22,13 @@ body {
   background-color: blue;
   position: absolute;
   left: 100px;
-  top: 100px
+  top: 0;
 }
 
 .yellow {
   height: 100px;
   width: 100px;
   background-color: yellow;
-  position: absolute;
+  position: fixed;
+  top: 0;
 }
