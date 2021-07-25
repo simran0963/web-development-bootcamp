@@ -116,3 +116,41 @@ PSEUDO CLASSES:
 	They have a :class before their respective classes, this is because the html elements can have different states and the most commonly used is 
 	:hover-> in this when we roll over or hover over a particular piece of text or image a different style is shown such as, if we hover over an
 	image it would change its background color. This is done using tag:hover {}
+
+CSS DISPLAY PROPERTIES:
+	1. block: covers entire line and blocks other text or elements to be displayed in the same line, width can be specified.
+	2. inline: covers only the required amount of space but width cannot be specifed.
+	3. inline-block: covers required amount of space and width can be specified too.
+	4. none: gets rid of the element.
+
+NOTE*: when using display: none; the element gets deleted as it were never written, but if we use visiblity: hidden; then the original positions
+			 of all the other texts remains unchanged, it's just that the text with the specified  prop, is ni longer displayed and is changed with a
+			 white space.
+			 
+Note that when using the <p> text </p>, it displays the website in the block format, i.e., it takes over the entire screen width on the webpage 
+unlike the <img> which only uses the required space width so using span you can overcome this problem but you cannot specify width when using 
+the <span> as in the <p> tag, so we can just change the display properties of the paragraph tag to inline or of the span element to block display
+but we still cannot specify the property like width to either of them while them being inline elments.
+
+	Common Block Elements:
+		-> paragraphs <p>, headers<h1> to <h6>, divisions<div>, lists and  list items(<ol>, <ul> and <li>), forms <form>.
+	<span> as well as anchor tag <a> are inline display element.
+
+
+CSS POSITIONING:
+	1. Content is Everything
+		The font you use determines how large things are displayed and what height and width will be.
+	2. Order Comes from code
+		Whatever is coded first, gets displayed first.
+	3. Children sit on top of Parents
+		Parent element acts as a base on top of which things that are coded inside them gets displayed, i.e., more close to the viewer.
+		Position is a CSS property which can be used to set the position or layout other than the default one. Some properties used to change the 
+		layout are:
+			1. Static: the default htmnl flow, if we have only html and no css, these elements are not affected by any css positioning props.
+			2. Relative: it also uses the stsic or normal position and that is used to determine the new relative position like left: 40px says the 
+				 left edge of the element should move to the right by 40px or the space b/w its new and former left edge should be 40 px.
+				 -> note that the relative positioning does not affect other elements so, if some other element is displayed along its new position, 
+				 	  then the change will just overlap the other elements.
+				 -> relative positioning adds the margin to where the object should have been
+			3. Absolute: adds the margin to the parent element.
+			4. Fixed
