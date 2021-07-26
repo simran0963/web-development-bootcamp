@@ -154,3 +154,22 @@ CSS POSITIONING:
 				 -> relative positioning adds the margin to where the object should have been
 			3. Absolute: adds the margin to the parent element.
 			4. Fixed: no matter of all the scrolling through the page, a particular element would remain still and intact in it's position.
+
+Centering the Elements using CSS
+	1. To center everything under the body tag which does not have a width set use text=align: center; and elements continue being in the block 
+		 layout.
+	2. If you have width set to a certain element, then using margin: 0 auto 0 auto; it can be aligned to the center and these elements no longer 
+		 are dislayed in the block layout.(auto sets the element to center)
+
+NOTE*: 16px IN FONT SIZE IS THE SAME AS 100% OR 1em.
+			 If we specify the font size using the % or em in the body tag and also individually to an element then the size appearing in the website
+			 gets added up, but if specified in pixels then only the one's given individually to the element works.
+			 To avoid th efont- size adding up the em i replaced by rem or root em.
+
+FLOAT TAG:
+	Float tag allows us to make an element float to the specified direction to the upcoming element.
+	.bun-img{float: left;}
+		would make the bun-img float left and the coded text next would appear to the right, or gets wrapped up to the right of the floating element.
+	If you want nothing to appear to left of the text then simply use the clear: left;(makes sure nothing is floating toward it's left)
+	  and if some elemnt was being shown to the left, then the mentioned element shifts downwards with a clear left side.
+NOTE*: Try to avoid using float prop. every now and then, or do not use it for positioning. Use only when necessary.
