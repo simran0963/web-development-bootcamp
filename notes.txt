@@ -19,3 +19,31 @@ CSS: styling your website like text font,color.[painters and decorators]
 JS: responsible for behaviour, or do things.[] 
 
   **surprise your friends by editing a text in "techcruch.com"
+
+
+
+                                      BOOTSTRAP(A Front-End Library)
+
+Front End: The face of your website is determined.
+          Languages used: HTML, JS, CSS.
+Back End: Resides on the server, database or is the BTS of how your website or app is gonna work(codes and 
+          functionality of the app.)
+          Languages: .NET, Ruby, PHP, Java, SQL, NodeJS.
+Both front-end  and back-end need to communicate to each other, so in the back-end we have listings, queries
+and then to deliver it to the front-end.
+
+BOOTSTRAP is on the front-end. It's a bunch of code that was written to be reusable, that we can drop into 
+  the site and it makes designing much easier.
+  It was developed by Twitter, to gain more consistence over web sites they design.
+  It is free and open source, is also the second most starred repo over github.
+  It is the most popular front end framework or lib.
+
+WHAT DOES IT ALLOW US TO DO?
+It is responsive
+  responsive is responding to the viewport, like having an interchangable layout as we switch between desktop,
+  mobile or i-pad.This is why the apperance or the design of the same website keeps changing based on where we 
+  view it, and BOOTSTRAP makes this easy.
+
+PRE-STYLED ELEMENTS
+  In BOOTSTRAP we get access to a bunch of pre-styled elements that we can simply drop into our code.
+  
