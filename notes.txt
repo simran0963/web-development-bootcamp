@@ -4,7 +4,7 @@
 2. Servers: some computers attached to the internet are online 24 x 7 and ready to serve us the files or information we request.[library]
 3. clients: any user that uses internet to access the information.
    
-   Our browser> isp(what page are we requesting)> DNS server(looks for the ip address of the requested page in its database, sends)> our browser
+   Our browser> ip(what page are we requesting)> DNS server(looks for the ip address of the requested page in its database, sends)> our browser
    our browser(direct request to the address through ips) via internet backbone
    our browser sends another message through ips via ib to the server at the loc.
    the server then sends us the required data via ib to our browser 
