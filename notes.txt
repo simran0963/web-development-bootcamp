@@ -1,3 +1,6 @@
+SOME SITES:
+    Codepen, Codeply
+
                                                          HOW INTERNET WORKS
 
 1. internet is a wire that connects one device or computer to another.
@@ -47,3 +50,6 @@ It is responsive
 PRE-STYLED ELEMENTS
   In BOOTSTRAP we get access to a bunch of pre-styled elements that we can simply drop into our code.
   
+BOOTSTRAP NAVIGATION BAR
+  <nav></nav>
+  For the particular section of navigation, we have a bootstrap library called navbar(navbar.com).

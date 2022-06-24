@@ -7,10 +7,10 @@
     2. Stylesheet/ Styling language.
     3. Used for website layout and design.
     4. By default CSS do not have any logic so it is used with HTML, XML, XHTML or can be extended with Sass/Less.
-      -> Sass: Syntactically Awesome Sytlesheet and
+      -> Sass: Syntactically Awesome Stylesheet and
       -> Less: Leaner CSS are CSS preprocessors
 
-INLINE CSS: relate to a speific HTML tag to style a particular page element.
+INLINE CSS: relate to a specific HTML tag to style a particular page element.
 	    less flexible as each inline style that is created must be edited separately while a change in design.
 
   The first CSS element to learn is the style attribute which is kept under the body tag and is followed by : ="background-color: colour;" for 
