@@ -1,0 +1,13 @@
+alert() : for popup
+prompt() : to take input using a popup prompt
+var var_name : creating variable
+typeof(var) : type of variable
+var_name.slice(0, 40) : slice up the text from position 0 to 40(excluding) and leave the rest
+var_name.toUpperCase(): converts to upper case
+function funName(){...}: creating a function
+funName(): calling a function
+console.log: displays in console
+funName(args): giving function a parameter
+Math.floor(a/b): Floor division in JS
+Math.pow(base, power): to raise a number to a certain power
+Math.round(num): rounds the number to the neareast whole number
