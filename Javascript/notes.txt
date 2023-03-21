@@ -11,3 +11,27 @@ funName(args): giving function a parameter
 Math.floor(a/b): Floor division in JS
 Math.pow(base, power): to raise a number to a certain power
 Math.round(num): rounds the number to the neareast whole number
+Math.random(): generates a 16 digit number between 0 to 1(excluded)
+
+CONDITIONAL STATEMENTS(Control Flow)
+if(condition){} else{}
+
+=== : is lhs = rhs?(compares the datatype too)
+!== : is lhs != rhs
+== : is lhs = rhs?(Datatypes not compared)
+&& : if condition 1 and 2 are toUpperCase
+|| : if condition 1 or 2 are toUpperCase
+
+ARRAY: var arr=[1,2,3,4,5]
+indexing starts from 0, arr[1]=2
+arr.length: returns length of the ARRAY
+arr.includes(var)
+
+LOOPING:
+while loop : while(condition){
+    ... iterator inc/dec;
+}
+
+for loop: for(var i=init;cond;iter){
+    ...
+}
